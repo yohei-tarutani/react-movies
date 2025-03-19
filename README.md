@@ -7,7 +7,9 @@ This project is based on the YouTube tutorial below made by Javascript Mastery.
 - Fetch default movies data and display them when the app is mounted (data from "The Movie DB": https://www.themoviedb.org/).
 - Change displayed movies depending on the search keyword.
 - Store the first movie of the displayed list by the searched keyword in the online database "appwrite" (https://appwrite.io/).
-- Display those movies in order of number of searches as Trending Movies.
+- Display those movies in order of number of searches as Trending Movies.<br>
+
+** Applied useDebounce react hook on the search term to prevent making too many API requests by waiting for the user to stop typing for a while.
 
 ### Demo<br>
 ![Image](https://github.com/user-attachments/assets/5f7e919d-06dd-4183-a02a-ef25d3a4e677)
