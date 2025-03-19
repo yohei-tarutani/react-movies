@@ -109,6 +109,8 @@ const App = () => {
             <h2 className="mt-[40px]">Trending Movies</h2>
             {trendingIsLoading ? (
               <Spinner />
+            ) : trendingErrorMessage ? (
+              <p className="text-red-500 text-3xl">{trendingErrorMessage}</p>
             ) : (
               <ul>
                 {trendingMovies.map((movie, index) => (
