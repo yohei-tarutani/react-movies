@@ -96,6 +96,7 @@ const App = () => {
       <div className="pattern" />
       <div className="wrapper">
         <header>
+          <img src="/logo.svg" alt="Logo Image" className="w-24 h-24" />
           <img src="/hero-img.png" alt="Hero Banner" />
           <h1>
             Find <span className="text-gradient">Movies</span> You'll Enjoy
