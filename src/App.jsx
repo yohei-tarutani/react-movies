@@ -6,13 +6,13 @@ import Spinner from "./components/Spinner";
 import { getTrendingMovies, updateSearchCount } from "./appwrite";
 
 const API_BASE_URL = "https://api.themoviedb.org/3";
-const ACCESS_TOKEN = import.meta.env.VITE_TMDB_ACCESS_TOKEN;
+const API_TOKEN = import.meta.env.VITE_TMDB_API_TOKEN;
 
 const API_OPTIONS = {
   method: "GET",
   headers: {
     accept: "application/json",
-    Authorization: `Bearer ${ACCESS_TOKEN}`,
+    Authorization: `Bearer ${API_TOKEN}`,
   },
 };
 
