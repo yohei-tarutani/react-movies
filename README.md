@@ -1,31 +1,38 @@
-# React Movies Website
-This project is based on the YouTube tutorial below made by Javascript Mastery.
+# 🎬 React Movies Web App  
+This project is a movie search and trending list app built with React and Vite.  
+It basically follows the YouTube tutorial by [JavaScript Mastery](https://www.youtube.com/watch?v=dCLhUialKPQ&t=308s).
 
-- React JS 19 Full Course 2025 | Build an App and Master React in 2 Hours: https://www.youtube.com/watch?v=dCLhUialKPQ&t=308s
+![Image](https://github.com/user-attachments/assets/51e6392d-34c3-415e-965d-3b1018c3280f)
 
-### Primary Features
-- Fetch default movies data and display them when the app is mounted (data from "The Movie DB": https://www.themoviedb.org/).
-- Change displayed movies depending on the search keyword.
-- Store the first movie of the displayed list by the searched keyword in the online database "appwrite" (https://appwrite.io/).
-- Display those movies in order of number of searches as Trending Movies.<br>
+## 🚀 Features  
+✅ Fetches and displays default movie data from [The Movie DB](https://www.themoviedb.org/) when the app is mounted.  
+✅ Allows users to search for movies dynamically.  
+✅ Stores the searched movies in [Appwrite](https://appwrite.io/) and displays trending movies based on the order of search frequency.  
+✅ Uses `useDebounce` to optimize API requests and prevent excessive calls.  
 
-** Applied useDebounce react hook on the search term to prevent making too many API requests by waiting for the user to stop typing for a while.
+## 🛠️ Technologies Used  
+- **React 19** (with Vite)  
+- **Appwrite** (for backend storage)  
+- **The Movie DB API** (for fetching movie data)  
+- **useDebounce Hook** (for efficient search)
 
-### Demo<br>
+## 📽️ Demo Video<br>
 ![Image](https://github.com/user-attachments/assets/5f7e919d-06dd-4183-a02a-ef25d3a4e677)
 
+## Getting Started  
+### Prerequisites  
+- Install **[Node.js](https://nodejs.org/)**  
+- Install **[Vite](https://vitejs.dev/)** (optional, since it's included in dependencies)  
 
-
-
-## React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Installation & Running the App  
+1. Clone the repository:  
+   ```sh
+   git clone https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME.git
+   cd YOUR_REPOSITORY_NAME
+2. Install dependencies:
+   ```sh
+   npm install
+3. Run the app locally:
+   ```sh
+   npm run dev
+4. Open the app in your browser:
