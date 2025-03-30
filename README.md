@@ -11,9 +11,9 @@ It basically follows the YouTube tutorial by [JavaScript Mastery](https://www.yo
 ✅ Uses `useDebounce` to optimize API requests and prevent excessive calls.  
 
 ## 🛠️ Technologies Used  
-- **React 19** (with Vite)  
-- **Appwrite** (for backend storage)  
+- **React 19** (with Vite)
 - **The Movie DB API** (for fetching movie data)  
+- **Appwrite** (for backend storage)  
 - **useDebounce Hook** (for efficient search)
 
 ## 📽️ Demo Video<br>
